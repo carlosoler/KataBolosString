@@ -1,2 +1,4 @@
 class Bolera:
-    pass
+
+    def calcularPuntuacion(self, partida):
+        return 0

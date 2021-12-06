@@ -8,7 +8,7 @@ class MyTestCase(unittest.TestCase):
     def test_calculaPuntuacion_0(self):
         bolera = Bolera()
         partida = '--------------------'
-        resultado = bolera.calularPuntuacion(partida)
+        resultado = bolera.calcularPuntuacion(partida)
         self.assertEqual(0, resultado)
 
 
