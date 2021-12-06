@@ -1,0 +1,2 @@
+class Bolera:
+    pass
