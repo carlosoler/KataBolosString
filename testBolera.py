@@ -35,6 +35,12 @@ class MyTestCase(unittest.TestCase):
         resultado = bolera.calcularPuntuacion(partida)
         self.assertEqual(36, resultado)
 
+    def test_pleno(self):
+        bolera = Bolera()
+        partida = 'X22----------------'
+        resultado = bolera.calcularPuntuacion(partida)
+        self.assertEqual(18, resultado)
+
 
 if __name__ == '__main__':
     unittest.main()
