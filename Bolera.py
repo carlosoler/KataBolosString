@@ -1,4 +1,8 @@
 class Bolera:
 
     def calcularPuntuacion(self, partida):
-        return 0
+        suma = 0
+        for tirada in partida:
+            if tirada != '-':
+                suma = suma + int(tirada)
+        return suma
